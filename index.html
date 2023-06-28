@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width-device-width, intial=scale = 1.0">
+
+        <link rel="shortcut icon" href="./favicon-32x32.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <title>Frontend Age Calculator Mentor</title>
+    </head>
+    <body>
+        <div class="mainContent">
+            <div class="content">
+                <form>
+                    <div class="formContainer">
+                        <div class="number">
+                            <label for="day">
+                                Day
+                            </label>
+                            <input type="number" placeholder="DD" id="day">
+                            <small></small>
+                        </div>
+                        <div class="number">
+                            <label for="month">
+                                Month
+                            </label>
+                            <input type="number" placeholder="MM" id="month">
+                            <small></small>
+                        </div>
+                        <div class="number">
+                            <label for="year">
+                                Year
+                            </label>
+                            <input type="number" placeholder="YYYY" id="year">
+                            <small></small>
+                        </div>
+                    </div>
+                    <div class="submitButton">
+                        <hr>
+                        <button type="submit" class="submitBtn"><img src="icon-arrow(1).svg" alt="arrow"></button>
+                    </div>
+                </form>
+                <div class="outPut">
+                    <h1><span id="YY">--</span>Years</h1>
+                    <h1><span id="MM">--</span>Months</h1>
+                    <h1><span id="DD">--</span>Days</h1>
+                </div>  
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

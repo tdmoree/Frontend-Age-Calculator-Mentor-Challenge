@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: rgba(238, 234, 234, 0.884);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.mainContent {
+    background-color: #ffff;
+    width: 610px;
+    border-radius: 1.5rem 1.5rem 10rem 1.5rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formContainer {
+    display: flex;
+    gap: 2rem;
+}
+
+.number {
+    display: flex;
+    flex-direction: column;
+}
+
+.number label {
+    text-transform: uppercase;
+    font-size: 600;
+}
+
+input {
+    width: 100px;
+    padding: .5rem;
+    border-radius: .5rem;
+    border: 1px solid #c5b9b9;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+input::placeholder {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.submitButton {
+    display: flex;
+    align-items: center;
+}
+
+.submitButton hr {
+    width: 100%;
+}
+
+.submitButton .submitBtn {
+    border-radius: 50%;
+    padding: 1rem;
+    background-color: rgb(116, 13, 212);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outPut h1 {
+    font-size: 5rem;
+    font-weight: 600;
+    font-style: italic;
+    height: fit-content;
+    text-transform: lowercase;
+}
+
+.outPut span {
+    color: rgb(116, 13, 212);
+}
+
+small {
+    color: red;
+}
+/************Mobile Design******/
+@media screen and (max-width:570px) {
+    .mainContent {
+        width: 370px;
+    }
+    .content {
+        padding: 1rem;
+    }
+    .formContainer {
+        margin-bottom: 5rem;
+        gap: 0;
+        justify-content: space-between;
+    }
+    .submitButton {
+        position: relative;
+    }
+    .submitBtn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .outPut {
+        margin-top: 5rem;
+    }
+    .outPut h1 {
+        font-size: 4rem;
+        text-transform: lowercase;
+    }
+}
