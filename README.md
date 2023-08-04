@@ -1,5 +1,5 @@
 # Frontend-Age-Calculator-Mentor-Challenge
-### Hey there :wave: welcome to my challenge Nice to me you....
+### Hey there :wave: welcome to my challenge Nice to meet you....
 
 ![age](https://github.com/tdmoree/Frontend-Age-Calculator-Mentor-Challenge/assets/127156119/e614051b-ba00-486a-a68b-fea044a16b22)
 
